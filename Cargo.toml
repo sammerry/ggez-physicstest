@@ -1,0 +1,23 @@
+[package]
+name = "nphysics"
+version = "0.1.0"
+authors = ["Sam Merry <sam.merry@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = ""
+fern = "*"
+log = "*"
+
+specs = "*"
+specs-derive = "*"
+derive_deref = "*"
+
+nalgebra = "0.16"
+ncollide2d = "0.17"
+nphysics2d = "0.9.3"
+
+ggez = "*"
+ggez-goodies = "*"
+
+fnv = "*"
